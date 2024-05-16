@@ -1,0 +1,38 @@
+body {
+    line-height: 100px;
+    color: black;
+}
+
+.container {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Impact;
+}
+
+p {
+    font-size: 35px;
+}
+
+.btn {
+    width: 250px;
+    height: 80px;
+    background-color: darkblue;
+    color: white;
+}
+.btn:hover {
+    background-color: green;
+    color: white;
+}
+
+#quoteDisplay {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px dotted;
+    background-color: #596570;
+    color: white;
+    display: none; 
+    min-width: 300px;
+}
